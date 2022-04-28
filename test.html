@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="back">
+        <div class="header">
+            <h1 class="name"> To do list </h1>
+            <div class="today">Задачи на сегодня:</div>
+        </div>
+        <div class="content">
+            <div class="select">
+                <select id="filter" class="filter_c">
+                    <option value="all_list">Все</option>
+                    <option value="ready_list">Выполненные</option>
+                    <option value="not_ready_list">Невыполненные</option>
+                </select>
+            </div>
+            <div class="list" id="list"></div>
+        </div>
+    </div>
+    <script src="./scripttest.js"></script>
+</body>
+</html>
